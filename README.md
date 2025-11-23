@@ -1,7 +1,7 @@
 # Anime-Recommendation-System
 The "Anime Recommendation System" project implements a simple yet effective Content-Based Filtering recommendation system designed to suggest anime titles similar to a user's favorite. It analyzes the features (such as genre, description, or tags) of a given anime and uses vector similarity to find the most relevant recommendations.
 <img width="1536" height="1024" alt="ChatGPT Image Nov 23, 2025, 04_54_56 PM" src="https://github.com/user-attachments/assets/1f00fa6b-2798-4464-93d5-2dbecc7ab445" />
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Project File
 
 Anime-Recommendation-System.ipynb: The main Jupyter Notebook containing the data loading, preprocessing, model implementation, and demonstration.
@@ -45,7 +45,7 @@ Example Code from Notebook:
 
 # Example of getting recommendations for the anime "Naruto"
 recommend_content("Naruto")
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🛠️ Technologies Used
 Feature	Library
 Data Handling	Pandas, NumPy
@@ -55,6 +55,7 @@ ANN Search	Annoy
 Deployment	Streamlit
 Visualization (optional)	Matplotlib
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🧠 How It Works
 1️⃣ Data Preprocessing
 
