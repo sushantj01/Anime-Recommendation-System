@@ -2,11 +2,11 @@
 The "Anime Recommendation System" project implements a simple yet effective Content-Based Filtering recommendation system designed to suggest anime titles similar to a user's favorite. It analyzes the features (such as genre, description, or tags) of a given anime and uses vector similarity to find the most relevant recommendations.
 <img width="1536" height="1024" alt="ChatGPT Image Nov 23, 2025, 04_54_56 PM" src="https://github.com/user-attachments/assets/1f00fa6b-2798-4464-93d5-2dbecc7ab445" />
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Project File
+# Project File
 
-Anime-Recommendation-System.ipynb: The main Jupyter Notebook containing the data loading, preprocessing, model implementation, and demonstration.
+1 ) Anime-Recommendation-System.ipynb: The main Jupyter Notebook containing the data loading, preprocessing, model implementation, and demonstration.
 
-Methodology: Content-Based Filtering
+2) Methodology: Content-Based Filtering
 
 The core of this recommender is built using the following steps:
 
@@ -18,7 +18,9 @@ Similarity Calculation: Cosine Similarity is used to calculate the similarity sc
 
 Recommendation Generation: The system retrieves the top N anime titles with the highest similarity scores, excluding the input anime itself.
 
-Requirements
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ # Requirements
 
 To run this notebook, you will need the following Python libraries:
 
@@ -31,9 +33,9 @@ scikit-learn (specifically TfidfVectorizer and cosine_similarity)
 You can install the necessary dependencies using pip:
 
 pip install pandas numpy scikit-learn
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-Usage
+# Usage
 
 Run the Notebook: Open the Anime-Recommendation-System.ipynb file in a Jupyter environment (Jupyter Lab, VS Code, Google Colab, etc.) and run all cells sequentially.
 
@@ -79,7 +81,10 @@ Visualization: Seaborn, Matplotlib
 App Framework: Streamlit
 
 Tools: Jupyter Notebook, Git
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🧠 How It Works
 
 1️⃣ Data Preprocessing
