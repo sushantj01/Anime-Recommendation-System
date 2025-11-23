@@ -46,15 +46,39 @@ Example Code from Notebook:
 # Example of getting recommendations for the anime "Naruto"
 recommend_content("Naruto")
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🛠️ Technologies Used
-Feature	Library
-Data Handling	Pandas, NumPy
-NLP	Scikit-learn (TF–IDF)
-Collaborative Filtering	Implicit (ALS)
-ANN Search	Annoy
-Deployment	Streamlit
-Visualization (optional)	Matplotlib
+📈 Workflow Details
+1. Dataset
+The dataset includes:
 
+anime.csv: Contains anime_id, name, genre, type, episodes, rating, and members.
+rating.csv: Contains user_id, anime_id, and rating.
+
+2. Data Processing
+Cleaned missing data in genres and ratings.
+Split and analyzed multi-label genres.
+Counted and visualized genre frequency.
+
+3. Recommendation Logic
+Used TF-IDF vectorization on anime genres.
+Computed cosine similarity between TF-IDF vectors.
+Built a function to fetch top-N similar anime based on genre similarity.
+
+
+
+🛠 Technologies Used
+
+Languages: Python
+
+Libraries:
+Machine Learning: Scikit-learn
+
+Data Handling: Pandas, NumPy
+
+Visualization: Seaborn, Matplotlib
+
+App Framework: Streamlit
+
+Tools: Jupyter Notebook, Git
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🧠 How It Works
 
